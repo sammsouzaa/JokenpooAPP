@@ -61,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
             idImg2.setImageResource(R.drawable.papel);
             idImg1.setVisibility(View.VISIBLE);
             idImg2.setVisibility(View.VISIBLE);
+            idNomeJogador1.setVisibility(View.VISIBLE);
+            idNomeJogador2.setVisibility(View.VISIBLE);
         }
         else if (IDnum1 == 2 && IDnum2 == 2 ){
             idVencedor.setText("EMPATE");
@@ -69,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
             idImg2.setImageResource(R.drawable.tesoura);
             idImg1.setVisibility(View.VISIBLE);
             idImg2.setVisibility(View.VISIBLE);
+            idNomeJogador1.setVisibility(View.VISIBLE);
+            idNomeJogador2.setVisibility(View.VISIBLE);
         }
         else if (IDnum1 == 3 && IDnum2 == 3 ){
             idVencedor.setText("EMPATE");
@@ -77,6 +81,8 @@ public class MainActivity extends AppCompatActivity {
             idImg2.setImageResource(R.drawable.pedra);
             idImg1.setVisibility(View.VISIBLE);
             idImg2.setVisibility(View.VISIBLE);
+            idNomeJogador1.setVisibility(View.VISIBLE);
+            idNomeJogador2.setVisibility(View.VISIBLE);
         }
 
         //Casos que o jogador 1 ganha:
@@ -89,6 +95,8 @@ public class MainActivity extends AppCompatActivity {
             idImg2.setImageResource(R.drawable.pedra);
             idImg1.setVisibility(View.VISIBLE);
             idImg2.setVisibility(View.VISIBLE);
+            idNomeJogador1.setVisibility(View.VISIBLE);
+            idNomeJogador2.setVisibility(View.VISIBLE);
         }
         else if (IDnum1 == 2 && IDnum2 == 1 ) {
 
@@ -98,6 +106,8 @@ public class MainActivity extends AppCompatActivity {
             idImg2.setImageResource(R.drawable.papel);
             idImg1.setVisibility(View.VISIBLE);
             idImg2.setVisibility(View.VISIBLE);
+            idNomeJogador1.setVisibility(View.VISIBLE);
+            idNomeJogador2.setVisibility(View.VISIBLE);
         }
         else if (IDnum1 == 3 && IDnum2 == 2 ) {
 
@@ -107,6 +117,8 @@ public class MainActivity extends AppCompatActivity {
             idImg2.setImageResource(R.drawable.tesoura);
             idImg1.setVisibility(View.VISIBLE);
             idImg2.setVisibility(View.VISIBLE);
+            idNomeJogador1.setVisibility(View.VISIBLE);
+            idNomeJogador2.setVisibility(View.VISIBLE);
         }
 
         // Casos que o jogador 2 ganha:
@@ -119,6 +131,8 @@ public class MainActivity extends AppCompatActivity {
             idImg2.setImageResource(R.drawable.papel);
             idImg1.setVisibility(View.VISIBLE);
             idImg2.setVisibility(View.VISIBLE);
+            idNomeJogador1.setVisibility(View.VISIBLE);
+            idNomeJogador2.setVisibility(View.VISIBLE);
         }
         else if (IDnum1 == 1 && IDnum2 == 2 ) {
 
@@ -128,6 +142,8 @@ public class MainActivity extends AppCompatActivity {
             idImg2.setImageResource(R.drawable.tesoura);
             idImg1.setVisibility(View.VISIBLE);
             idImg2.setVisibility(View.VISIBLE);
+            idNomeJogador1.setVisibility(View.VISIBLE);
+            idNomeJogador2.setVisibility(View.VISIBLE);
         }
         else if (IDnum1 == 2 && IDnum2 == 3 ) {
 
@@ -137,8 +153,8 @@ public class MainActivity extends AppCompatActivity {
             idImg2.setImageResource(R.drawable.pedra);
             idImg1.setVisibility(View.VISIBLE);
             idImg2.setVisibility(View.VISIBLE);
-
+            idNomeJogador1.setVisibility(View.VISIBLE);
+            idNomeJogador2.setVisibility(View.VISIBLE);
         }
-
     }
 }
