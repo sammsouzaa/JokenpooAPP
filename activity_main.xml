@@ -85,10 +85,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.642" />
+
     <ImageView
         android:id="@+id/idImg2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.762"
@@ -96,10 +98,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.889"
         app:srcCompat="@drawable/ic_launcher_foreground" />
+
     <ImageView
         android:id="@+id/idImg1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.217"
@@ -107,6 +111,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.889"
         app:srcCompat="@drawable/ic_launcher_foreground" />
+
     <TextView
         android:id="@+id/idVencedor"
         android:layout_width="329dp"
@@ -115,12 +120,14 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="25sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.744" />
+
     <TextView
         android:id="@+id/idNomeJogador1"
         android:layout_width="105dp"
@@ -129,12 +136,14 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="16sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.225"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.967" />
+
     <TextView
         android:id="@+id/idNomeJogador2"
         android:layout_width="108dp"
@@ -143,6 +152,7 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="16sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.743"
