@@ -1,6 +1,5 @@
 package com.example.jokenpooo;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.media.Image;
@@ -11,6 +10,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import java.util.Random;
+
 public class MainActivity extends AppCompatActivity {
     public EditText idJogador1;
     public EditText idJogador2;
